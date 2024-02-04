@@ -12,11 +12,14 @@ interface ListProps<T> {
 function List<T>({ items, renderItem }: ListProps<T>) {
 
   return (
-    <ul>
-      {items.map((item, index) => (
-        <li key={index}>{renderItem(item)}</li>
-      ))}
-    </ul>
+    <div>
+    <h2>7. Lista generica </h2>
+        <ul>
+            {items.map((item, index) => (
+            <li key={index}>{renderItem(item)}</li>
+        ))}
+        </ul>
+    </div>
   );
 }
 

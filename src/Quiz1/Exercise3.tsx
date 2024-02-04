@@ -4,6 +4,9 @@
 
 import React, { useState } from 'react';
 
+import { Button } from '@mui/material';
+
+
 const Counter: React.FC = () =>{
     const [count, setCount] = useState<number>(0);
 
@@ -19,8 +22,8 @@ const Counter: React.FC = () =>{
     return (
         <div>
             <h2>3. Counter: {count}</h2>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
+            <Button onClick={increment}>Increment</Button>
+            <Button onClick={decrement}>Decrement</Button>
         </div>
     )
 }

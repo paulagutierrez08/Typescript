@@ -25,4 +25,4 @@ function Components({name, age}:persona) {
     )
 };
 
-export default Components
+export default Components;

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import TypeScriptBasics from '../Quiz1/Exercise1';
-import Person from '../Quiz1/Exercise2';
-import Counter from '../Quiz1/Exercise3';
-import EventHandling from '../Quiz1/Exercise4';
-import OptionalMessage from '../Quiz1/Exercise5';
-import APITheme from '../Quiz1/Exercise6';
-import List from '../Quiz1/Exercise7';
-import ReadOnlyCompt from '../Quiz1/Exercise8';
-import UbicationInfo from '../Quiz1/Exercise9';
-import Tuple from '../Quiz1/Exercise10';
+import TypeScriptBasics from '../Quiz1/typescript-basics';
+import Person from '../Quiz1/person';
+import Counter from '../Quiz1/counter';
+import EventHandling from '../Quiz1/event-handling';
+import OptionalMessage from '../Quiz1/optional-message';
+import APITheme from '../Quiz1/API-theme';
+import List from '../Quiz1/list';
+import ReadOnlyCompt from '../Quiz1/readonly-props';
+import UbicationInfo from '../Quiz1/ubication-info';
+import Tuple from '../Quiz1/tuple';
 import AppBar from '../Quiz2/theme/appBar';
 import Components from '../Quiz2/theme/components';
 
